@@ -13,7 +13,7 @@ const ServiceCard = ({ service }) => {
             <img src={img} alt="" className='w-full h-44 rounded-md mb-1'/>
             <h2 className='py-3 text-xl font-bold'>{title}</h2>
             <div className='text-[#FF3811] font-bold text-base flex justify-between items-center'>
-                <p>Price: {price}</p>
+                <p>Price: ${price}</p>
                 <Link to={`/service-details/${_id}`}>
                     <button><BsArrowRightShort className='text-3xl'></BsArrowRightShort></button>
                 </Link>
